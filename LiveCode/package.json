@@ -1,0 +1,25 @@
+{
+  "name": "RNMeetup",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.0.1",
+    "react": "15.3.2",
+    "react-native": "0.36.0",
+    "react-native-maps": "git+https://github.com/airbnb/react-native-maps.git#1d5b0449d0ab0a0b6f4e502586799e4ba1ff8f32"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "16.0.2",
+    "jest-react-native": "16.0.0",
+    "react-test-renderer": "15.3.2"
+  }
+}
